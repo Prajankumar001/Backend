@@ -10,7 +10,7 @@ app.use(express.json());
 
 //Home page api
 app.get('/', (req, res) =>
-  res.send('Hello World')
+  res.send('Hello World ON')
 )
 
 //Registering page api
